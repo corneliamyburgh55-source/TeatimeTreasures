@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teatime Treasures — A Quieter Way Back to Peace</title>
+  <meta name="description" content="Teatime Treasures is a faith-rooted space helping women slow down, reconnect with God, and rebuild calm daily rhythms — gently and sustainably." />
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Teatime Treasures — A Quieter Way Back to Peace" />
+  <meta property="og:description" content="Faith-rooted encouragement, peaceful daily rhythms, and practical restoration for women ready to slow down." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.github.io" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=1200&q=80" />
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ==================== HERO ==================== -->
+  <header class="hero" role="banner">
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Teatime Treasures</p>
+      <h1 class="hero__headline">A quieter way<br/><em>back to peace.</em></h1>
+      <p class="hero__sub">Teatime Treasures is a faith-rooted space helping women slow down, reconnect with God, and rebuild calm daily rhythms — gently and sustainably.</p>
+      <div class="hero__buttons">
+        <a href="#form" class="btn btn--primary" aria-label="Get free quiet time access — scroll to form">Get Free Quiet Time Access</a>
+        <a href="https://payhip.com/TeatimeTreasures" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">Explore the Treasures</a>
+      </div>
+      <p class="hero__micro">Faith-based encouragement &nbsp;•&nbsp; Calm routines &nbsp;•&nbsp; Practical restoration</p>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== EMPATHY STRIP ==================== -->
+    <section class="empathy" aria-label="You are welcome here">
+      <div class="container">
+        <p class="empathy__line">If your mind feels tired…</p>
+        <p class="empathy__line">If life feels heavier than it should…</p>
+        <p class="empathy__line empathy__line--welcome">You are welcome here.</p>
+      </div>
+    </section>
+
+    <!-- ==================== WHAT WE OFFER ==================== -->
+    <section class="offers" aria-labelledby="offers-heading">
+      <div class="container container--narrow">
+        <h2 id="offers-heading" class="section-title">What Teatime Treasures Offers</h2>
+        <ul class="offers__list" role="list">
+          <li class="offers__item">
+            <span class="offers__icon" aria-hidden="true">✦</span>
+            <span>Scripture-led encouragement</span>
+          </li>
+          <li class="offers__item">
+            <span class="offers__icon" aria-hidden="true">✦</span>
+            <span>Peaceful daily rhythms</span>
+          </li>
+          <li class="offers__item">
+            <span class="offers__icon" aria-hidden="true">✦</span>
+            <span>Faith + creativity that restores the heart</span>
+          </li>
+        </ul>
+        <p class="offers__closing">Small steps. Real peace. Under God's guidance.</p>
+        <a href="#form" class="offers__link" aria-label="Start with the free Quiet Time Library — scroll to form">Start with the free Quiet Time Library →</a>
+      </div>
+    </section>
+
+    <!-- ==================== FORM ==================== -->
+    <section class="form-section" id="form" aria-labelledby="form-heading">
+      <div class="container container--narrow">
+        <div class="form-card">
+          <h2 id="form-heading" class="form-card__title">Get the Free Quiet Time Library</h2>
+          <p class="form-card__desc">Begin with gentle tools designed to help you reset your day and settle your spirit.</p>
+
+          <form
+            id="signup-form"
+            action="https://formspree.io/f/YOUR_ID"
+            method="POST"
+            novalidate
+            aria-label="Sign up for the Quiet Time Library"
+          >
+            <div class="form-group">
+              <label for="first-name">First Name <span aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="first-name"
+                name="first_name"
+                autocomplete="given-name"
+                required
+                aria-required="true"
+                placeholder="Your first name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address <span aria-hidden="true">*</span></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                required
+                aria-required="true"
+                placeholder="your@email.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="need">What do you need most right now? <span class="label-optional">(optional)</span></label>
+              <select id="need" name="need" aria-label="Select what you need most right now">
+                <option value="" disabled selected>Choose one…</option>
+                <option value="Peace">Peace</option>
+                <option value="Clarity">Clarity</option>
+                <option value="Consistency">Consistency</option>
+                <option value="Purpose">Purpose</option>
+                <option value="Healing">Healing</option>
+              </select>
+            </div>
+
+            <div class="form-group form-group--checkbox">
+              <label class="checkbox-label">
+                <input
+                  type="checkbox"
+                  id="consent"
+                  name="consent"
+                  required
+                  aria-required="true"
+                />
+                <span class="checkbox-custom" aria-hidden="true"></span>
+                <span>I agree to receive encouragement emails. I can unsubscribe anytime.</span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn--submit" id="submit-btn">
+              Access the Quiet Time Library
+            </button>
+
+            <p class="form-card__micro" aria-live="polite" id="form-status">No spam. Just calm encouragement and practical faith tools.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== STILL METHOD ==================== -->
+    <section class="still" aria-labelledby="still-heading">
+      <div class="container container--narrow">
+        <div class="still__card">
+          <p class="still__intro">Alongside this work, I share a calm daily practice called the</p>
+          <h2 id="still-heading" class="still__title">STILL™ Method</h2>
+          <p class="still__tagline">A Scripture-aligned framework helping women:</p>
+          <ul class="still__list" role="list">
+            <li>Slow emotional overwhelm</li>
+            <li>Anchor in truth</li>
+            <li>Settle mind and body</li>
+            <li>Respond with peace instead of reaction</li>
+          </ul>
+          <p class="still__note">Not therapy — simply a gentle return to steadiness under God's leadership.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CTA BAND ==================== -->
+    <section class="cta-band" aria-label="Next steps">
+      <div class="container">
+        <h2 class="cta-band__title">Ready for your next step?</h2>
+        <div class="cta-band__buttons">
+          <a href="https://payhip.com/TeatimeTreasures" class="btn btn--outline" target="_blank" rel="noopener noreferrer">Explore the Shop</a>
+          <a href="https://buymeacoffee.com/teatimetreasures" class="btn btn--outline" target="_blank" rel="noopener noreferrer">Support Teatime Treasures</a>
+          <a href="https://linktr.ee/officialteatimetreasures" class="btn btn--outline" target="_blank" rel="noopener noreferrer">Find me everywhere</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p class="footer__quote">You don't need to change everything today.<br/><em>Just begin quietly.</em></p>
+      <a href="#form" class="btn btn--primary" aria-label="Get free quiet time access — scroll to form">Get Free Quiet Time Access</a>
+      <p class="footer__copy">&copy; <span id="year"></span> Teatime Treasures. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
